@@ -1,0 +1,84 @@
+body {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+h1{
+    font-size:large;
+}
+
+.navbar-brand {
+    font-family: 'Arizonia', cursive;
+}
+
+.navbar {
+    background-color: rgb(252, 209, 234);
+}
+
+#cabecalho .nav .nav-link.active,
+#produtos .nav .nav-link.active,
+.tab-pane button:hover,
+#fale-conosco button{
+    background-color: rgb(243, 21, 150);
+    color:rgb(252, 209, 234);
+    font-size: 20px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link:hover {
+    color: rgb(243, 21, 150);
+}
+
+.navbar-toggler {
+    background-color:rgb(243, 151, 205);
+}
+
+#sobre-nos,
+#produtos {
+    background-color:rgb(232, 179, 243);
+}
+
+.text-colored {
+    color:rgb(243, 21, 150);
+}
+
+.col-md-5 img {
+    max-height: 600px;
+}
+
+#buffet .container .col-md-4 img {
+    max-height: 270px;
+}
+
+
+.tab-pane button {
+    background-color: rgb(243, 21, 150);
+    color: rgb(232, 179, 243);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    .tab-pane img {
+        height: 200px;
+    }
+    #buffet .container .col-md-4 img {
+        min-height: 200px;
+    }
+}
+
+@media (max-width:767px){
+    .tab-pane img {
+        height: 300px;
+        margin-top: 100px;
+    }
+
+}
